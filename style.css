@@ -1,0 +1,149 @@
+section{
+  width: 100%;
+  height: 60vh;
+  padding: 20rem;
+}
+
+nav ul{
+  display: flex;
+  gap: 4rem;
+
+  list-style: none;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left:15%;
+
+}
+
+#id0{
+  background: black;
+  color: white;
+}
+nav ul li a{
+  font-size: 2rem;
+  line-height: 2.3rem;
+  font-style:normal;
+  font-weight: 500;
+
+  text-decoration: none;
+
+
+  background-color: var(--Acor-base-2);
+  color: var(--cor-base-2);
+
+  padding: 2rem;
+}
+
+:root{
+  font-size: 62.5%;
+
+  --cor-base:10;
+  --cor-base-1:hsl(var(--cor-base), 15%, 90%);
+  --cor-base-2:hsl(var(--cor-base), 30%, 75%);
+  --cor-base-3:hsl(var(--cor-base), 45%, 60%);
+  --cor-base-4:hsl(var(--cor-base), 60%, 45%);
+  --cor-base-5:hsl(var(--cor-base), 75%, 30%);
+  --cor-base-6:hsl(var(--cor-base), 90%, 15%);
+
+  --cor-base-7:hsl(var(--cor-base), 100%, 0%);
+  --cor-base-8:hsl(var(--cor-base), 85%, 15%);
+  --cor-base-9:hsl(var(--cor-base), 70%, 30%);
+
+  --Acor-base:10;
+  --Acor-base-1:hsl(var(--Acor-base),  90% , 15%);
+  --Acor-base-2:hsl(var(--Acor-base),  75% , 30%);
+  --Acor-base-3:hsl(var(--Acor-base),  60% , 45%);
+  --Acor-base-4:hsl(var(--Acor-base),  45% , 60%);
+  --Acor-base-5:hsl(var(--Acor-base),  30% , 75%);
+  --Acor-base-6:hsl(var(--Acor-base),  15% , 90%);
+
+  --Acor-base-7:hsl(var(--Acor-base),  0% , 100%);
+  --Acor-base-8:hsl(var(--Acor-base),  15% , 85%);
+  --Acor-base-9:hsl(var(--Acor-base),  30% , 70%);
+
+}
+
+#id1{
+  background-color: var(--cor-base-1);
+}
+
+#id2{
+  background-color: var(--cor-base-2);
+}
+
+#id3{
+  background-color: var(--cor-base-3);
+}
+
+#id4{
+  background: var(--cor-base-4);
+}
+
+#id5{
+  background-color: var(--cor-base-5);
+}
+
+#id6{
+  background-color: var(--cor-base-6);
+}
+
+
+
+
+
+
+#e1{
+  background-color: var(--Acor-base-1);
+}
+
+#e2{
+  background-color: var(--Acor-base-2);
+}
+
+#e3{
+  background-color: var(--Acor-base-3);
+}
+
+#e4{
+  background-color: var(--Acor-base-4);
+}
+#e5{
+  background-color: var(--Acor-base-5);
+}
+
+#e6{
+  background-color: var(--Acor-base-6);
+}
+
+#e7{
+  background-color: var(--Acor-base-7);
+}
+
+#e8{
+  background-color: var(--Acor-base-8);
+}
+
+#e9{
+  background-color: var(--Acor-base-9);
+}
+
+@media (max-width:440px){
+  nav ul{
+
+    display: block;
+  
+    list-style: none;
+  }
+
+  nav ul + ul {
+    margin-top: 2rem;
+  }
+
+}
